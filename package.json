@@ -7,6 +7,7 @@
     "start": "export NODE_ENV=production && node dist/index.js",
     "dev": "export NODE_ENV=development && node dist/index.js",
     "build": "rm -rf dist && tsc --build tsconfig.json",
+    "release": "bash release.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
